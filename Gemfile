@@ -4,9 +4,9 @@ ruby '1.9.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
-
-gem 'sqlite3', '1.3.7'
-
+group :development do
+	gem 'sqlite3', '1.3.7'
+end
 
 gem 'sass-rails', '4.0.0'
 gem 'uglifier',  '2.1.1'
